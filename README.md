@@ -1,11 +1,11 @@
 # RomM Launcher
 
-Application Windows pour jouer à la bibliothèque d'un serveur [RomM](https://github.com/rommapp/romm)
+Application Windows et macOS pour jouer à la bibliothèque d'un serveur [RomM](https://github.com/rommapp/romm)
 (version 5.4 ou plus récente) : elle installe et lance les jeux PC et les ROMs, et synchronise les
 sauvegardes avec le serveur.
 
 **[Télécharger la dernière version](https://github.com/michaellock/romm-launcher-releases/releases/latest)**
-(fichier `RomM.Launcher_x.y.z_x64-setup.exe`).
+(Windows : `RomM.Launcher_x.y.z_x64-setup.exe` ; Mac Apple Silicon : `RomM.Launcher_x.y.z_aarch64.dmg`).
 
 ## Installation
 
@@ -13,6 +13,19 @@ sauvegardes avec le serveur.
 2. L'application n'est pas signée : Windows SmartScreen peut afficher « Windows a protégé votre
    ordinateur ». Clique sur **Informations complémentaires**, puis **Exécuter quand même**.
 3. Les mises à jour suivantes s'installent depuis l'application, sans cet avertissement.
+
+## Installation sur Mac (Apple Silicon)
+
+1. Ouvre le fichier `.dmg` et glisse **RomM Launcher** dans Applications.
+2. L'application n'est pas certifiée par Apple : au premier lancement macOS la bloque. Ouvre
+   Réglages Système > Confidentialité et sécurité, puis clique sur **Ouvrir quand même** en bas
+   de la page (une seule fois).
+3. Les mises à jour suivantes s'installent depuis l'application.
+
+**Jeux Windows sur Mac** : installe [CrossOver](https://www.codeweavers.com/crossover) (payant,
+essai gratuit, le plus compatible) ou [Whisky](https://frankea.github.io/Whisky/) (gratuit), puis
+choisis-le dans Réglages > Jeux PC. L'application prépare elle-même un environnement Windows
+dédié et y installe tes jeux.
 
 ## Premier lancement
 
@@ -31,12 +44,16 @@ sauvegardes avec le serveur.
 - **ROMs** : téléchargement puis lancement avec l'émulateur associé à la plateforme. Préréglages
   pour RetroArch, mGBA, Eden, Ryujinx, PCSX2 et RPCS3 ; tout autre émulateur peut être ajouté.
 - **Sauvegardes** : envoyées au serveur après chaque partie et récupérées avant la suivante, pour
-  reprendre sur un autre PC. En cas de conflit, l'application te demande quelle version garder ;
+  reprendre sur un autre PC. Un emplacement de sauvegarde choisi à la main est retenu avec la
+  sauvegarde et repris sur tes autres ordinateurs. En cas de conflit, l'application te demande quelle version garder ;
   l'autre reste en copie de secours.
 - **Temps de jeu** : envoyé à RomM et affiché sur la fiche du jeu.
 - **Installation à distance** : un jeu demandé depuis l'interface web de RomM s'installe sur le PC.
 - **Mode TV** : interface plein écran pilotable à la manette (voir ci-dessous).
-- **Notifications** Windows quand une installation se termine ou échoue, application en arrière-plan.
+- **Jeux 18+** : masqués par défaut ; Réglages > Application pour les afficher.
+- **Plateformes synchronisées** : choisis dans Réglages > Sauvegardes celles dont les sauvegardes
+  sont envoyées au serveur.
+- **Notifications** quand une installation se termine ou échoue, application en arrière-plan.
 
 ## Mode TV
 
