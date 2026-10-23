@@ -1,0 +1,20 @@
+{
+  "name": "Solarized Light",
+  "author": "RomM Launcher",
+  "base": "light",
+  "colors": {
+    "bg-0": "#eee8d5",
+    "bg-1": "#fdf6e3",
+    "bg-2": "#eee8d5",
+    "bg-3": "#e1ddc8",
+    "border": "#d6cfb6",
+    "text": "#073642",
+    "text-dim": "#586e75",
+    "accent": "#268bd2",
+    "accent-soft": "rgba(38, 139, 210, 0.16)",
+    "danger": "#dc322f",
+    "warn": "#b58900",
+    "ok": "#859900",
+    "radius": "8px"
+  }
+}

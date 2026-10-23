@@ -1,0 +1,20 @@
+{
+  "name": "Catppuccin Mocha",
+  "author": "RomM Launcher",
+  "base": "dark",
+  "colors": {
+    "bg-0": "#181825",
+    "bg-1": "#1e1e2e",
+    "bg-2": "#313244",
+    "bg-3": "#45475a",
+    "border": "#45475a",
+    "text": "#cdd6f4",
+    "text-dim": "#a6adc8",
+    "accent": "#cba6f7",
+    "accent-soft": "rgba(203, 166, 247, 0.18)",
+    "danger": "#f38ba8",
+    "warn": "#f9e2af",
+    "ok": "#a6e3a1",
+    "radius": "8px"
+  }
+}

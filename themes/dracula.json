@@ -1,0 +1,20 @@
+{
+  "name": "Dracula",
+  "author": "RomM Launcher",
+  "base": "dark",
+  "colors": {
+    "bg-0": "#21222c",
+    "bg-1": "#282a36",
+    "bg-2": "#343746",
+    "bg-3": "#44475a",
+    "border": "#44475a",
+    "text": "#f8f8f2",
+    "text-dim": "#bcbcbc",
+    "accent": "#bd93f9",
+    "accent-soft": "rgba(189, 147, 249, 0.18)",
+    "danger": "#ff5555",
+    "warn": "#f1fa8c",
+    "ok": "#50fa7b",
+    "radius": "8px"
+  }
+}

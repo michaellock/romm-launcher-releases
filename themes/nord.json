@@ -1,0 +1,20 @@
+{
+  "name": "Nord",
+  "author": "RomM Launcher",
+  "base": "dark",
+  "colors": {
+    "bg-0": "#2e3440",
+    "bg-1": "#3b4252",
+    "bg-2": "#434c5e",
+    "bg-3": "#4c566a",
+    "border": "#4c566a",
+    "text": "#eceff4",
+    "text-dim": "#d8dee9",
+    "accent": "#88c0d0",
+    "accent-soft": "rgba(136, 192, 208, 0.18)",
+    "danger": "#bf616a",
+    "warn": "#ebcb8b",
+    "ok": "#a3be8c",
+    "radius": "8px"
+  }
+}
